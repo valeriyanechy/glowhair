@@ -1,0 +1,16 @@
+.btn {
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    height: 55px;
+    box-shadow: $btn-box-shadow;
+    border-radius: 30px 30px;
+    padding: 5px 44px;
+    border: 1px solid $gray;
+    color: $white;
+    background-color: $gray;
+    transition: $trs;
+}
