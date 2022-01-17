@@ -1,7 +1,10 @@
-@import './common/buttons.scss';
 @import './common/vars.scss';
 
+@import './components/buttons.scss';
 @import './components/base.scss';
 @import './components/header.scss';
+@import './components/main.scss';
+@import './components/products.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
