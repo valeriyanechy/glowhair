@@ -57,6 +57,16 @@
                     width: 50%;
                 }
             }
+
+            &-cart {
+                position: relative;
+                color: $gray;
+                transition: $trs;
+
+                svg:hover {
+                    transform: scale(1.2);
+                }
+            }
         }
     }
 
@@ -68,11 +78,6 @@
             display: block;
             position: relative;
             overflow: hidden;
-        }
-
-        span {
-            font-weight: 500;
-            font-size: 18px;
         }
     }
 
@@ -96,6 +101,24 @@
         &-descr {
             margin-bottom: 30px;
             font-size: 20px;
+        }
+    }
+
+    &__socials {
+        position: absolute;
+        right: 5%;
+        bottom: 35%;
+
+        svg {
+            width: 25px;
+            display: block;
+            margin: 25px 5px;
+            transition: $trs;
+            color: $gray;
+
+            &:hover {
+                color: $white;
+            }
         }
     }
 }

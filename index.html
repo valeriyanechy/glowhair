@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>GlowHair</title>
 </head>
 <body>
@@ -17,7 +18,6 @@
                             <a href="#" class="header__logo-link">
                                 <img src="./images/logo-b.png" width="90px" height="90px">
                             </a>
-                            <span>GLOWHAIR</span>
                         </div>
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
@@ -31,6 +31,13 @@
                             </li>
                             <li class="header__nav-item">
                                 <a href="#" class="header__nav-item-link">About Us</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-cart"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart2"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                                </svg></a>
                             </li>
                         </ul>
                     </div>   
@@ -48,6 +55,22 @@
                             <a href="#" class="btn">Discover</a>
                         </div>
                     </div> 
+                    <div class="header__socials">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -147,21 +170,254 @@
         <div class="products">
             <div class="container">
                 <div class="products__wrap">
-                    <div class="products__card u-clearfix">
-                        <div class="products__card-body">
-                            <span class="products__card-number products__card-circle subtle">01</span>
-                            <h2 class="products__card-title">Redken 01</h2>
-                            <span class="products__card-descr subtle">Description of the product</span>
-                            <div class="products__card-btn">Shop</div>
-                        </div>
-                        <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/acidic-bonding-concentrate/redken-2020-acidic-bonding-concentrate-shampoo-product-shot-1260x1600.jpg"
-                            alt="" class="products__card-media" />
+                    <div class="products__title">
+                        <h1>Products</h1>
                     </div>
-                    <div class="products__card-shadow"></div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">01</span>
+                                        <h2 class="products__card-title">Redken 01</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium.</span>
+                                        <div class="products__card-btn"><span>$28</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/acidic-bonding-concentrate/redken-2020-acidic-bonding-concentrate-shampoo-product-shot-1260x1600.jpg"
+                                        alt="Product 01" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">02</span>
+                                        <h2 class="products__card-title">Redken 02</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium.</span>
+                                        <div class="products__card-btn"><span>$23</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/color-extend-graydiant/redken-2021-color-extend-graydiant-product-shot-1260x1600-shampoo-gray.jpg?w=728&hash=DFF1E294203037D6913B41E7F1BEA284"
+                                        alt="Product 02" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">03</span>
+                                        <h2 class="products__card-title">Redken 03</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum.</span>
+                                        <div class="products__card-btn"><span>$23</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/color-extend-brownlight/redken-2021-color-extend-brownlights-conditioner.jpg"
+                                        alt="Product 03" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">04</span>
+                                        <h2 class="products__card-title">Redken 04</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae.</span>
+                                        <div class="products__card-btn"><span>$23</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/all-soft/884486041807allsoftshampoo.jpg"
+                                        alt="Product 04" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">05</span>
+                                        <h2 class="products__card-title">Redken 05</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo.</span>
+                                        <div class="products__card-btn"><span>$25</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/color-extend-magnetics/884486149855cemshampoo.jpg"
+                                        alt="Product 05" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">06</span>
+                                        <h2 class="products__card-title">Redken 06</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi.</span>
+                                        <div class="products__card-btn"><span>$52</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/color-extend-blondage/redken-2018-blondage-shampoo-purple-1260x1600.jpg?w=728&hash=C69E184EE60C967B8570164083E13730"
+                                        alt="Product 06" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">07</span>
+                                        <h2 class="products__card-title">Redken 07</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus.</span>
+                                        <div class="products__card-btn"><span>$28</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/haircare/hair-cleansing-cream/redken-2021-hair-cleansing-cream-product-shot-retail-1260x1600-color.jpg?w=728&hash=40A523E437C5589D0B659A07C1EFA4D5"
+                                        alt="Product 07" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">08</span>
+                                        <h2 class="products__card-title">Redken 08</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</span>
+                                        <div class="products__card-btn"><span>$28</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/imported-product-images/redken-2021-extreme-length-mask.jpg"
+                                        alt="Product 08" class="products__card-media">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products__card u-clearfix">
+                                    <div class="products__card-body">
+                                        <span class="products__card-number products__card-circle subtle">09</span>
+                                        <h2 class="products__card-title">Redken 09</h2>
+                                        <span class="products__card-descr subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis.</span>
+                                        <div class="products__card-btn"><span>$30</span><span>Shop</span></div>
+                                    </div>
+                                    <img src="https://www.redken.eu/-/media/project/loreal/brand-sites/redken/emea/inter/product-information/product-images/imported-product-images/redken-2020-extreme-bleach-recovery-lamellar-treatment-product-shot-1260x1600-color.jpg"
+                                        alt="Product 09" class="products__card-media">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="work">
+            <div class="container">
+                <div class="work__wrap">
+                    <div class="work__title">
+                        <h1>Our Work</h1>
+                    </div>
+                    <div class="work__block">
+                        <ul class="work__gallery filter">
+                            <li>
+                                <a href="#">
+                                    <img src="https://media.timeout.com/images/105681172/image.jpg"
+                                        alt="Work 01">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://stylemagazines.com.au/wp-content/uploads/2020/04/Hairytales-Blonde-Hairdressers.jpg"
+                                        alt="Work 02">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://i2.wp.com/www.hadviser.com/wp-content/uploads/2020/04/4-long-blonde-hair-with-highlights-B56cFZ4jv53.jpg"
+                                        alt="Work 03">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://www.gcvip.com.au/wp-content/uploads/2020/05/87014275_1825808207550053_8189760716526321664_o-825x1030.jpg"
+                                        alt="Work 04">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://i.pinimg.com/originals/02/2d/c5/022dc5cf6c591c4ba4cb350734371018.jpg"
+                                        alt="Work 05">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://www.hadviser.com/wp-content/uploads/2021/09/how-to-add-shine-to-hair-salon-treatment-glazing-CTP1M1pHuhC.jpg"
+                                        alt="Work 06">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logos">
+            <div class="container">
+                <div class="logos__wrap">
+                    <div class="logos__media">
+                        <img src="./images/redken.png" alt="Redken logo">
+                        <img src="./images/ghd01.png" alt="ghd logo">
+                        <img src="./images/mac.png" alt="MAC logo">
+                        <img src="./images/benefit01.png" alt="Benefit logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrap">
+                    <div class="footer__logo">
+                        <a href="#" class="footer__logo-link">
+                            <img src="./images/logo-w.png" width="100px" height="100px">
+                        </a>
+                    </div>
+                    <div class="footer__socials">
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__info">
+                            <li>
+                                <a href="#">
+                                    <h2>Terms of Service</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h2>Privacy Policy</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h2>About Us</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:glowhaircontact@gmail.com" style="color: rgb(255, 255, 255);">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__end">
+                <p>
+                    ©
+                    <script>
+                        document.write(newDate().getFullYear() + ' ');
+                    </script>
+                    2022 GlowHair - By Valeriya Nechyporuk
+                </p>
+            </div>
+        </footer>
+        <button type="button" class="btn top" id="btn_back-to-top"><span>&#8593;</span></button>
     </div>
-    <script></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script/product.js"></script>
+    <script src="./script/btn-top.js"></script>
 </body>
 </html>

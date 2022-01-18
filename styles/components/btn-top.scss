@@ -1,0 +1,25 @@
+#btn_back-to-top {
+    position: fixed;
+    padding: 5px 20px !important;
+    bottom: 30px;
+    right: 35px;
+    width: 55px !important;
+    height: 45px;
+    background-color: $lightwhite;
+    display: none;
+
+    &:hover {
+        border-color: $lightwhite !important;
+        background-color: $gray;
+    }
+
+    span {
+        color: $gray;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    &:hover span{
+        color: $white;
+    }
+}
