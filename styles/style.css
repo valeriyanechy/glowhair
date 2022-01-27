@@ -197,6 +197,16 @@ a {
     transform: translateX(25%);
   }
 }
+@media (max-width: 1024px) {
+  .header__logo {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 768px) {
+  .header__hero-title {
+    font-size: 50px;
+  }
+}
 .main {
   padding: 30px 0;
   background: #fff;
@@ -280,6 +290,11 @@ a {
   transform: scale(1);
 }
 
+@media (max-width: 768px) {
+  .main__wrap {
+    max-width: 750px;
+  }
+}
 .products {
   padding: 30px 0;
   background-color: #f4f3f1;
@@ -396,6 +411,31 @@ a {
   background: #404040 !important;
 }
 
+@media (max-width: 1024px) {
+  .swiper {
+    padding: 0 20px !important;
+  }
+
+  .products__card-descr {
+    max-width: 250px !important;
+  }
+
+  .products__card-btn {
+    max-width: 255px;
+  }
+}
+@media (max-width: 768px) {
+  .products__card-body {
+    width: 170px;
+  }
+
+  .products__card-btn {
+    max-width: 170px;
+  }
+  .products__card-btn::after {
+    width: 38%;
+  }
+}
 .work {
   padding: 30px 0;
   background: #fff;
@@ -437,6 +477,16 @@ a {
   transform: scale(1);
 }
 
+@media (max-width: 1024px) {
+  .work__block {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .work__gallery {
+    grid-gap: 10px;
+  }
+}
 .location {
   padding: 30px 0;
 }
@@ -456,6 +506,23 @@ a {
   font-size: 18px;
 }
 
+@media (max-width: 1024px) {
+  .location__col img {
+    position: relative;
+    right: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .location__col img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .location__info {
+    padding: 0 30px;
+    font-size: 15px !important;
+  }
+}
 .logos {
   padding: 30px 0;
   background: rgba(64, 64, 64, 0.7);
@@ -471,6 +538,17 @@ a {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .logos__media img:nth-child(1) {
+    width: 100px;
+  }
+  .logos__media img:nth-child(3) {
+    width: 95px;
+  }
+  .logos__media img:nth-child(4) {
+    width: 90px;
+  }
+}
 .footer {
   padding-top: 30px;
   background: #404040;
@@ -540,6 +618,13 @@ a {
   padding: 17px 0;
 }
 
+@media (max-width: 768px) {
+  .footer__wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+  }
+}
 #btn_back-to-top {
   position: fixed;
   padding: 5px 20px !important;
@@ -547,6 +632,7 @@ a {
   right: 35px;
   width: 55px !important;
   height: 45px;
+  z-index: 999;
   background-color: #f4f3f1;
   display: none;
 }

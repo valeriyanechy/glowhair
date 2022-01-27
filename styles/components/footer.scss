@@ -79,3 +79,11 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 750px;
+    }
+}

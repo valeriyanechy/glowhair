@@ -45,3 +45,15 @@
 
     }
 }
+
+@media(max-width: 1024px) {
+    .work__block {
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .work__gallery {
+        grid-gap: 10px;
+    }
+}

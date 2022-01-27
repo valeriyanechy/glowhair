@@ -14,3 +14,19 @@
         align-items: center;
     }
 }
+
+@media(max-width: 768px) {
+    .logos__media img {
+        &:nth-child(1) {
+            width: 100px;
+        }
+
+        &:nth-child(3) {
+            width: 95px;
+        }
+        
+        &:nth-child(4) {
+            width: 90px;
+        }
+    }
+}

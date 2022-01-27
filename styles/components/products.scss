@@ -139,3 +139,31 @@
 // .u-clearfix {
 //   *zoom: 1;
 // }
+
+@media(max-width: 1024px) {
+    .swiper {
+        padding: 0 20px !important;
+    }
+
+    .products__card-descr {
+        max-width: 250px !important;
+    }
+
+    .products__card-btn {
+        max-width: 255px;
+    }
+}
+
+@media(max-width: 768px) {
+    .products__card-body {
+        width: 170px;
+    }
+
+    .products__card-btn {
+        max-width: 170px;
+
+        &::after {
+            width: 38%;
+        }
+    }
+}

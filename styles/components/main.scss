@@ -93,3 +93,9 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .main__wrap {
+        max-width: 750px ;
+    }
+}
