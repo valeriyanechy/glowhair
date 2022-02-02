@@ -57,3 +57,9 @@
         grid-gap: 10px;
     }
 }
+
+@media(max-width: 600px) {
+    .work__block {
+        padding: 0 100px;
+    }
+}

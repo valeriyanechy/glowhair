@@ -87,3 +87,15 @@
         max-width: 750px;
     }
 }
+
+@media(max-width: 600px) {
+    .footer__wrap {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 495px) {
+    .footer__wrap {
+        max-width: 495px;
+    }
+}

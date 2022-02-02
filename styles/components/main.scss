@@ -99,3 +99,19 @@
         max-width: 750px ;
     }
 }
+
+@media(max-width: 600px) {
+    .main__wrap {
+        max-width: 600px ;
+    }
+
+    .main__list {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 495px) {
+    .main__wrap {
+        max-width: 495px ;
+    }
+}

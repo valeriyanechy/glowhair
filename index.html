@@ -21,16 +21,13 @@
                         </div>
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
-                                <a href="#" class="header__nav-item-link">Products</a>
+                                <a href="#products_anchor" class="header__nav-item-link">Products</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#" class="header__nav-item-link">Services</a>
+                                <a href="#services_anchor" class="header__nav-item-link">Services</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#" class="header__nav-item-link">Our Work</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-item-link">About Us</a>
+                                <a href="#work_anchor" class="header__nav-item-link">Our Work</a>
                             </li>
                             <li class="header__nav-item">
                                 <a href="#" class="header__nav-item-cart"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart2"
@@ -40,6 +37,11 @@
                                 </svg></a>
                             </li>
                         </ul>
+                        <div class="burger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
                     </div>   
                     <div class="header__hero">
                         <div class="bg"></div>
@@ -77,7 +79,7 @@
         <div class="main">
             <div class="container">
                 <div class="main__wrap">
-                    <div class="main__title">
+                    <div id="services_anchor" class="main__title">
                         <h1>Services</h1>
                     </div>
                     <div class="main__block">
@@ -170,7 +172,7 @@
         <div class="products">
             <div class="container">
                 <div class="products__wrap">
-                    <div class="products__title">
+                    <div id="products_anchor" class="products__title">
                         <h1>Products</h1>
                     </div>
                     <div class="swiper mySwiper">
@@ -294,7 +296,7 @@
         <div class="work">
             <div class="container">
                 <div class="work__wrap">
-                    <div class="work__title">
+                    <div id="work_anchor" class="work__title">
                         <h1>Our Work</h1>
                     </div>
                     <div class="work__block">
@@ -436,5 +438,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script/product.js"></script>
     <script src="./script/btn-top.js"></script>
+    <script src="./script/burgerMenu.js"></script>
 </body>
 </html>
